@@ -16,7 +16,9 @@
 
 ---
 
-![](https://media.giphy.com/media/g1n3pswjr0ouc/giphy.gif)
+<p align="center">
+    <img src="https://media.giphy.com/media/g1n3pswjr0ouc/giphy.gif" alt="wazzup-web-gif">
+</p>
 
 ---
 
