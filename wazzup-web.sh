@@ -2,7 +2,15 @@
 TOKEN=
 CHAT_ID=
 API=https://api.telegram.org/bot$TOKEN/sendMessage
-MESSAGE="SERVER IS DOWN!"
+
+DATE=`date +"%m.%d.%Y"`
+TIME=`date +"%H:%M:%S"`
+
+MESSAGE="SERVER IS DOWN!
+----------------------------------------------------
+Date   :    ${DATE}
+Time   :    ${TIME}
+----------------------------------------------------"
 
 if curl -s --head --request GET <URL> | grep '200' > /dev/null; then 
      echo "Server is UP"
