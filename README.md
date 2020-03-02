@@ -65,7 +65,7 @@ sudo crontab -u <USERNAME> -e
 * * * * * bash /path/to/script/wazzup-web.sh
 ```
 
-generate time here : [crontab.guru](https://crontab.guru/#*_*_*_*_*)
+NOTE: generate time here : [crontab.guru](https://crontab.guru/#*_*_*_*_*)
 
 ---
 
